@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relay"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <GridView
+        android:layout_marginTop="0sp"
+        android:id="@+id/gridView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:layout_alignParentTop="true" />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/material_design_floating_action_menu_item3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10sp"
+        android:layout_alignBottom="@+id/gridView1"
+        android:layout_alignRight="@+id/gridView1"
+        android:layout_marginBottom="10sp"
+        android:tint="@color/yellow"
+
+        android:src="@drawable/ic_notification_musicplayer"
+        fab:fab_label="New User"
+        fab:fab_size="normal" />
+
+</RelativeLayout>
